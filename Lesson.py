@@ -1,4 +1,12 @@
-a = 5
-b = 6
-print(a + b)
-print(a - b)
+number = int(input("Введіть тризначне число: "))
+
+a = number // 100
+
+b = number // 10 % 10
+
+c = number % 10
+
+print("Сотні",a)
+print("Десятки",b)
+print("Одиниці",c)
+print("Сума",a + b + c)
